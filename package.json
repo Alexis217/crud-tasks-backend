@@ -2,6 +2,7 @@
   "name": "tpi_crud_task",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "node --watch src/app.js"
   },
@@ -11,6 +12,7 @@
   "description": "",
   "dependencies": {
     "express": "^4.19.2",
+    "express-validator": "^7.1.0",
     "mysql2": "^3.11.0"
   }
 }
